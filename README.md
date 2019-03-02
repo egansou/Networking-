@@ -1,2 +1,2 @@
 # Networking
-Repository for etworking projects 
+Repository for networking projects 
