@@ -1,5 +1,4 @@
 /*NAME: Enock Gansou */
-/*DirectoryID: 115045637*/
 
 /* Part of my code is used from the required textbooks for this class */
 /*
