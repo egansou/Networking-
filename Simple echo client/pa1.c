@@ -1,10 +1,5 @@
 /*NAME: Enock Gansou */
 
-/* Part of my code is used from the required textbooks for this class */
-/*
-* This page contains a client program that can request a file from the server program
-* on the next page. The server responds by sending the whole file.
-*/
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
