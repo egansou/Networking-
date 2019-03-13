@@ -1,5 +1,4 @@
 /*NAME: Enock Gansou*/
-/*DirectoryID: 115045637*/
 
 #include <stdio.h>  /* printf() and fprintf()  */
 #include <string.h>	/* for using strtok, strcmp, etc */
