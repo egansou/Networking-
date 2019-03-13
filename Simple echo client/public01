@@ -1,0 +1,15 @@
+./server 5050 &
+cat ./public01.in | ./pa1 127.0.0.1 5050 > public01.out
+
+DIFF1=$(diff ./public01.in ./public01.out)
+
+if [ "$DIFF1" != "" ]
+then
+	echo "-Fail (1)"
+	echo "$DIFF1"
+	exit 1
+else
+	echo "+Pass (1)"
+	exit 0
+fi
+
