@@ -503,7 +503,7 @@ def setup(hostname, port, nodes, config)
 		loop{
 			if ($socketList.length != 0)
 				readSocket = IO.select($socketList) #check which sockets can be read from
-				if read = readSocket[0] #not sure what this does, from TA example
+				if read = readSocket[0] 
 					socket = read[0]
 					
 					message = socket.gets
@@ -587,7 +587,6 @@ def setup(hostname, port, nodes, config)
 							else
 
 								if(dstName.eql?$hostname)
-								#0 n4 0
 									STDOUT.puts("#{id} #{srcName} #{interval}")
 								else
 									dstNode = $nameToNode[dstName]
@@ -604,7 +603,6 @@ def setup(hostname, port, nodes, config)
 							dstName = fields[1]
 
 							if(dstName.eql?$hostname)
-								#0 n4 0
 								STDOUT.puts("PING ERROR: HOST UNREACHABLE")
 							else
 								dstNode = $nameToNode[dstName]
